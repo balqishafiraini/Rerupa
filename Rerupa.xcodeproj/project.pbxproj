@@ -13,6 +13,16 @@
 		FA109EA6288674FF0093BF7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA109EA5288674FF0093BF7C /* Preview Assets.xcassets */; };
 		FA109EA8288674FF0093BF7C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA109EA7288674FF0093BF7C /* Persistence.swift */; };
 		FA109EAB288674FF0093BF7C /* Rerupa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA109EA9288674FF0093BF7C /* Rerupa.xcdatamodeld */; };
+		FA39E16D2886CEEE0092FEE5 /* ContourDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E16C2886CEEE0092FEE5 /* ContourDetector.swift */; };
+		FA39E16F2886CF480092FEE5 /* Contour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E16E2886CF480092FEE5 /* Contour.swift */; };
+		FA39E1712886CF660092FEE5 /* CoreGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1702886CF660092FEE5 /* CoreGraphics.swift */; };
+		FA39E1732886CF7D0092FEE5 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1722886CF7D0092FEE5 /* UserDefaults.swift */; };
+		FA39E1752886CF910092FEE5 /* VNContour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1742886CF910092FEE5 /* VNContour.swift */; };
+		FA39E1772886CFB20092FEE5 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1762886CFB20092FEE5 /* ContentViewModel.swift */; };
+		FA39E1792886CFC60092FEE5 /* ContourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1782886CFC60092FEE5 /* ContourView.swift */; };
+		FA39E17B2886CFD30092FEE5 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E17A2886CFD30092FEE5 /* ImageView.swift */; };
+		FA39E17D2886D0060092FEE5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E17C2886D0060092FEE5 /* Settings.swift */; };
+		FA9C190128867B32006358D9 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C190028867B32006358D9 /* PhotoPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +33,16 @@
 		FA109EA5288674FF0093BF7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA109EA7288674FF0093BF7C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FA109EAA288674FF0093BF7C /* Rerupa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rerupa.xcdatamodel; sourceTree = "<group>"; };
+		FA39E16C2886CEEE0092FEE5 /* ContourDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourDetector.swift; sourceTree = "<group>"; };
+		FA39E16E2886CF480092FEE5 /* Contour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contour.swift; sourceTree = "<group>"; };
+		FA39E1702886CF660092FEE5 /* CoreGraphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphics.swift; sourceTree = "<group>"; };
+		FA39E1722886CF7D0092FEE5 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		FA39E1742886CF910092FEE5 /* VNContour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNContour.swift; sourceTree = "<group>"; };
+		FA39E1762886CFB20092FEE5 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		FA39E1782886CFC60092FEE5 /* ContourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourView.swift; sourceTree = "<group>"; };
+		FA39E17A2886CFD30092FEE5 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		FA39E17C2886D0060092FEE5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		FA9C190028867B32006358D9 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +75,12 @@
 		FA109E9D288674FD0093BF7C /* Rerupa */ = {
 			isa = PBXGroup;
 			children = (
+				FA39E16B2886CEDE0092FEE5 /* Vision */,
+				FA9C190528867D51006358D9 /* Data */,
+				FA9C190428867D3C006358D9 /* Extension */,
+				FA9C190328867D36006358D9 /* Model */,
+				FA9C190228867D2E006358D9 /* View */,
 				FA109E9E288674FD0093BF7C /* RerupaApp.swift */,
-				FA109EA0288674FD0093BF7C /* ContentView.swift */,
 				FA109EA2288674FF0093BF7C /* Assets.xcassets */,
 				FA109EA7288674FF0093BF7C /* Persistence.swift */,
 				FA109EA9288674FF0093BF7C /* Rerupa.xcdatamodeld */,
@@ -71,6 +95,52 @@
 				FA109EA5288674FF0093BF7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA39E16B2886CEDE0092FEE5 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				FA39E16C2886CEEE0092FEE5 /* ContourDetector.swift */,
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
+		FA9C190228867D2E006358D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA109EA0288674FD0093BF7C /* ContentView.swift */,
+				FA39E1762886CFB20092FEE5 /* ContentViewModel.swift */,
+				FA39E1782886CFC60092FEE5 /* ContourView.swift */,
+				FA39E17A2886CFD30092FEE5 /* ImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA9C190328867D36006358D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA9C190028867B32006358D9 /* PhotoPicker.swift */,
+				FA39E16E2886CF480092FEE5 /* Contour.swift */,
+				FA39E17C2886D0060092FEE5 /* Settings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA9C190428867D3C006358D9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA39E1702886CF660092FEE5 /* CoreGraphics.swift */,
+				FA39E1722886CF7D0092FEE5 /* UserDefaults.swift */,
+				FA39E1742886CF910092FEE5 /* VNContour.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FA9C190528867D51006358D9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +213,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA39E16D2886CEEE0092FEE5 /* ContourDetector.swift in Sources */,
 				FA109EA8288674FF0093BF7C /* Persistence.swift in Sources */,
 				FA109EA1288674FD0093BF7C /* ContentView.swift in Sources */,
+				FA39E16F2886CF480092FEE5 /* Contour.swift in Sources */,
+				FA39E17D2886D0060092FEE5 /* Settings.swift in Sources */,
 				FA109EAB288674FF0093BF7C /* Rerupa.xcdatamodeld in Sources */,
+				FA39E1792886CFC60092FEE5 /* ContourView.swift in Sources */,
+				FA39E1732886CF7D0092FEE5 /* UserDefaults.swift in Sources */,
+				FA9C190128867B32006358D9 /* PhotoPicker.swift in Sources */,
+				FA39E1772886CFB20092FEE5 /* ContentViewModel.swift in Sources */,
 				FA109E9F288674FD0093BF7C /* RerupaApp.swift in Sources */,
+				FA39E1752886CF910092FEE5 /* VNContour.swift in Sources */,
+				FA39E1712886CF660092FEE5 /* CoreGraphics.swift in Sources */,
+				FA39E17B2886CFD30092FEE5 /* ImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +358,7 @@
 				DEVELOPMENT_TEAM = AZQ73MXTBD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires usage of camera to function property.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +388,7 @@
 				DEVELOPMENT_TEAM = AZQ73MXTBD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires usage of camera to function property.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
