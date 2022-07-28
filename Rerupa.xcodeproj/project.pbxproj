@@ -22,7 +22,6 @@
 		FA39E1792886CFC60092FEE5 /* ContourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1782886CFC60092FEE5 /* ContourView.swift */; };
 		FA39E17B2886CFD30092FEE5 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E17A2886CFD30092FEE5 /* ImageView.swift */; };
 		FA39E17D2886D0060092FEE5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E17C2886D0060092FEE5 /* Settings.swift */; };
-		FA39E1A328893FF10092FEE5 /* DrawingLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1A228893FF10092FEE5 /* DrawingLine.swift */; };
 		FA39E1A72889702B0092FEE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1A62889702B0092FEE5 /* HomeView.swift */; };
 		FA9C190128867B32006358D9 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C190028867B32006358D9 /* PhotoPicker.swift */; };
 /* End PBXBuildFile section */
@@ -44,7 +43,6 @@
 		FA39E1782886CFC60092FEE5 /* ContourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourView.swift; sourceTree = "<group>"; };
 		FA39E17A2886CFD30092FEE5 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		FA39E17C2886D0060092FEE5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		FA39E1A228893FF10092FEE5 /* DrawingLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingLine.swift; sourceTree = "<group>"; };
 		FA39E1A62889702B0092FEE5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FA9C190028867B32006358D9 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,7 +134,6 @@
 				FA39E1702886CF660092FEE5 /* CoreGraphics.swift */,
 				FA39E1722886CF7D0092FEE5 /* UserDefaults.swift */,
 				FA39E1742886CF910092FEE5 /* VNContour.swift */,
-				FA39E1A228893FF10092FEE5 /* DrawingLine.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -233,7 +230,6 @@
 				FA39E1752886CF910092FEE5 /* VNContour.swift in Sources */,
 				FA39E1712886CF660092FEE5 /* CoreGraphics.swift in Sources */,
 				FA39E17B2886CFD30092FEE5 /* ImageView.swift in Sources */,
-				FA39E1A328893FF10092FEE5 /* DrawingLine.swift in Sources */,
 				FA39E1A72889702B0092FEE5 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +366,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -400,7 +396,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
