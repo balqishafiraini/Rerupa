@@ -22,8 +22,6 @@
 		FA39E1792886CFC60092FEE5 /* ContourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1782886CFC60092FEE5 /* ContourView.swift */; };
 		FA39E17B2886CFD30092FEE5 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E17A2886CFD30092FEE5 /* ImageView.swift */; };
 		FA39E17D2886D0060092FEE5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E17C2886D0060092FEE5 /* Settings.swift */; };
-		FA39E19F28893FCF0092FEE5 /* DrawingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E19E28893FCF0092FEE5 /* DrawingShape.swift */; };
-		FA39E1A128893FE50092FEE5 /* DrawingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1A028893FE50092FEE5 /* DrawingEngine.swift */; };
 		FA39E1A328893FF10092FEE5 /* DrawingLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1A228893FF10092FEE5 /* DrawingLine.swift */; };
 		FA39E1A72889702B0092FEE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E1A62889702B0092FEE5 /* HomeView.swift */; };
 		FA9C190128867B32006358D9 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C190028867B32006358D9 /* PhotoPicker.swift */; };
@@ -46,8 +44,6 @@
 		FA39E1782886CFC60092FEE5 /* ContourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourView.swift; sourceTree = "<group>"; };
 		FA39E17A2886CFD30092FEE5 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		FA39E17C2886D0060092FEE5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		FA39E19E28893FCF0092FEE5 /* DrawingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShape.swift; sourceTree = "<group>"; };
-		FA39E1A028893FE50092FEE5 /* DrawingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingEngine.swift; sourceTree = "<group>"; };
 		FA39E1A228893FF10092FEE5 /* DrawingLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingLine.swift; sourceTree = "<group>"; };
 		FA39E1A62889702B0092FEE5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FA9C190028867B32006358D9 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
@@ -130,8 +126,6 @@
 				FA9C190028867B32006358D9 /* PhotoPicker.swift */,
 				FA39E16E2886CF480092FEE5 /* Contour.swift */,
 				FA39E17C2886D0060092FEE5 /* Settings.swift */,
-				FA39E19E28893FCF0092FEE5 /* DrawingShape.swift */,
-				FA39E1A028893FE50092FEE5 /* DrawingEngine.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,14 +228,12 @@
 				FA39E1792886CFC60092FEE5 /* ContourView.swift in Sources */,
 				FA39E1732886CF7D0092FEE5 /* UserDefaults.swift in Sources */,
 				FA9C190128867B32006358D9 /* PhotoPicker.swift in Sources */,
-				FA39E19F28893FCF0092FEE5 /* DrawingShape.swift in Sources */,
 				FA39E1772886CFB20092FEE5 /* ContentViewModel.swift in Sources */,
 				FA109E9F288674FD0093BF7C /* RerupaApp.swift in Sources */,
 				FA39E1752886CF910092FEE5 /* VNContour.swift in Sources */,
 				FA39E1712886CF660092FEE5 /* CoreGraphics.swift in Sources */,
 				FA39E17B2886CFD30092FEE5 /* ImageView.swift in Sources */,
 				FA39E1A328893FF10092FEE5 /* DrawingLine.swift in Sources */,
-				FA39E1A128893FE50092FEE5 /* DrawingEngine.swift in Sources */,
 				FA39E1A72889702B0092FEE5 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,7 +370,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,7 +381,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -408,7 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -419,7 +411,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

@@ -21,12 +21,13 @@ struct ContentView: View {
                 VStack {
                     Image("logo")
                         .resizable()
-                        .frame(width: 100, height: 100)
-                    Text("Rerupa")
-                        .font(.system(size: 40))
-                        .fontWeight(.black)
-                        .foregroundColor(.white)
-                    
+                        .scaledToFill()
+                        .frame(width: 200, height: 200)
+//                    Text("Rerupa")
+//                        .font(.system(size: 40))
+//                        .fontWeight(.black)
+//                        .foregroundColor(.white)
+//
                     Button {
                         isPresenting = true
                     } label: {
